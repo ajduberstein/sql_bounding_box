@@ -1,7 +1,7 @@
 {
-  "name": "bounding_box_map",
+  "name": "sql_bounding_box",
   "version": "0.1.0",
-  "private": true,
+  "homepage": "https://ajduberstein.github.io/sql_bounding_box",
   "dependencies": {
     "clipboard-js": "^0.3.5",
     "leaflet": "^1.2.0",

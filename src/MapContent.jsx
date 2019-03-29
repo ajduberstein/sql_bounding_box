@@ -24,7 +24,9 @@ class MapContent extends Component {
   }
 
   handleClick = e => {
-    let pt = [e.latlng];
+    let [lat, lng] = [e.latlng.lat, e.latlng.lng];
+    let pt = [{lat, lng}];
+    console.log(pt);
     if (this.state.pts.length < MAX_PTS) {
       this.setState({pts: this.state.pts.concat(pt)})
     } else {
